@@ -91,3 +91,7 @@ C:\Users\Sean\source\repos\BabysitterKata\BabysitterKata\obj\Debug\BabysitterKat
 C:\Users\Sean\source\repos\BabysitterKata\BabysitterKata\obj\Debug\BabysitterKata.csproj.CopyComplete
 C:\Users\Sean\source\repos\BabysitterKata\BabysitterKata\obj\Debug\BabysitterKata.dll
 C:\Users\Sean\source\repos\BabysitterKata\BabysitterKata\obj\Debug\BabysitterKata.pdb
+C:\Users\Sean\Documents\CodeTests\Babysitter-Kata\BabysitterKata\BabysitterKata\obj\Debug\BabysitterKata.csprojAssemblyReference.cache
+C:\Users\Sean\Documents\CodeTests\Babysitter-Kata\BabysitterKata\BabysitterKata\obj\Debug\BabysitterKata.csproj.CoreCompileInputs.cache
+C:\Users\Sean\Documents\CodeTests\Babysitter-Kata\BabysitterKata\BabysitterKata\obj\Debug\BabysitterKata.dll
+C:\Users\Sean\Documents\CodeTests\Babysitter-Kata\BabysitterKata\BabysitterKata\obj\Debug\BabysitterKata.pdb
