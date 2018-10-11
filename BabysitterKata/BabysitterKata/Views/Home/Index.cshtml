@@ -1,3 +1,24 @@
-﻿@{
+﻿@model BabysitterKata.Models.HoursViewModel
+
+@{
     ViewBag.Title = "Home Page";
+}
+
+<div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.StartHour)
+        @Html.DropDownListFor(m => m.StartHour, new SelectList(Model.StartOptions, "Value", "Display"), new { @class = "form-control hourddl" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.BedTimeHour)
+        @Html.DropDownListFor(m => m.BedTimeHour, new SelectList(Model.BedTimeOptions, "Value", "Display"), new { @class = "form-control hourddl" })
+    </div>
+    <div class="form-check">
+        @Html.LabelFor(m => m.EndHour)
+        @Html.DropDownListFor(m => m.EndHour, new SelectList(Model.EndOptions, "Value", "Display"), new { @class = "form-control hourddl" })
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/Scripts/Pages/Index.js")
 }
