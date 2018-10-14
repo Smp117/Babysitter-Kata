@@ -4,19 +4,23 @@
     ViewBag.Title = "Home Page";
 }
 
-<div>
-    <div class="form-group">
+<div class="col-md-12">
+    <div class="form-group col-md-4">
         @Html.LabelFor(m => m.StartHour)
         @Html.DropDownListFor(m => m.StartHour, new SelectList(Model.StartOptions, "Value", "Display"), new { @class = "form-control hourddl" })
     </div>
-    <div class="form-group">
+    <div class="form-group col-md-4">
         @Html.LabelFor(m => m.BedTimeHour)
         @Html.DropDownListFor(m => m.BedTimeHour, new SelectList(Model.BedTimeOptions, "Value", "Display"), new { @class = "form-control hourddl" })
     </div>
-    <div class="form-check">
+    <div class="form-check col-md-4">
         @Html.LabelFor(m => m.EndHour)
         @Html.DropDownListFor(m => m.EndHour, new SelectList(Model.EndOptions, "Value", "Display"), new { @class = "form-control hourddl" })
     </div>
+</div>
+
+<div class="col-md-4 col-md-offset-4">
+    <p>@Html.LabelFor(m => m.NightlyCharge) = $<span id="nightlyCharge">@Html.DisplayTextFor(m => m.NightlyCharge)</span></p>
 </div>
 
 @section scripts{

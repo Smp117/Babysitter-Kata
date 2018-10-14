@@ -153,6 +153,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\HoursViewModel.cs" />
+    <Compile Include="Models\PayRate.cs" />
     <Compile Include="Models\Time.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,6 +1,5 @@
 ﻿$(document).ready(function () {
     $('.hourddl').on("change", function () {
-        console.log("change");
         UpdateDropdowns();
     });
 
@@ -23,6 +22,8 @@
                 UpdateDropdown($('#StartHour'), result.StartOptions, start);
                 UpdateDropdown($('#BedTimeHour'), result.BedTimeOptions, bed);
                 UpdateDropdown($('#EndHour'), result.EndOptions, end);
+
+                $('#nightlyCharge').text(result.NightlyCharge);
             });
     }
 

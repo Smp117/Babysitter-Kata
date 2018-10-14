@@ -16,6 +16,8 @@ namespace BabysitterKata.Models
             Value = value;
         }
 
+        public static Time Midnight { get { return new Time("12:00 AM", 7); } }
+
         public static List<Time> AvailableTimes()
         {
             return new List<Time>()
